@@ -1,0 +1,26 @@
+.anim-sec{
+    background-color: gray;
+    text-align: center;
+    padding: 30px;
+    overflow: hidden;
+}
+
+h4{
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+
+.anim-right{
+    transform: translateX(-120%);
+    transition: 0.8s;
+}
+
+.anim-left{
+    transform: translateX(120%);
+    transition: 0.8s;
+}
+
+.animate-os .anim-left,.animate-os .anim-right{
+    transition: 0.8s;
+    transform: translateX(0) ;
+}
